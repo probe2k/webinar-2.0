@@ -1,6 +1,0 @@
-#!/usr/bin/bash
-st=$1
-
-cp ../crashcourse.ipynb ./
-git add .
-echo $st | git commit -S -m -i $f
