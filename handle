@@ -1,0 +1,6 @@
+#!/usr/bin/bash
+str=$1
+
+cp ../crashcourse.ipynb ./
+git add .
+git commit -S -m str
