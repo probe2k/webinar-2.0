@@ -1,6 +1,6 @@
 #!/usr/bin/bash
-str=$1
+st=$1
 
 cp ../crashcourse.ipynb ./
 git add .
-git commit -S -m str
+echo $st | git commit -S -m -i $f
